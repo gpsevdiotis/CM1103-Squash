@@ -1,0 +1,18 @@
+C:\Users\George Psevdiotis\Desktop\University\CM1103 Problem Solving with Python\Assesment>py
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from Q1_C1841824 import *
+>>> #1a
+... print(game(70,30))
+[11, 4]
+>>> #1b
+... print(winProbability(70,30,10000))
+0.98
+>>> #1c
+... print(reader("test.csv"))
+[('60', ' 20'), ('100', ' 55'), ('50', ' 40'), ('20', ' 70'), ('95', ' 85')]
+>>> #1d
+... wins(reader("test.csv"))
+>>> #1e
+... print(simulation())
+2
